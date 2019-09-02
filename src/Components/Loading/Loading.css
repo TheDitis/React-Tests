@@ -1,0 +1,40 @@
+#loading {
+    top: 20px;
+    display: flex;
+    flex-flow: column;
+    background: radial-gradient(#3f434a, #202329);
+    width: 100%;
+    height: calc(100% - 10px);
+    border-bottom: 5px solid #151515;
+    box-shadow: 10px 0 20px, inset 10px 0 20px;
+}
+#loadbox {
+    position: relative;
+    overflow-y: hidden;
+    top: 35%;
+}
+#loadwheel {
+    /*box-shadow: 0px 0px 1 1 #ffd000;*/
+    position: relative;
+    top: 40px;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    -webkit-filter: drop-shadow(0px 0px 15px #ffd000);
+    background-color: #ffd000;
+    border-radius: 50px;
+    animation: wheel-spin 2s infinite linear;
+}
+#loadtext {
+    position: relative;
+    margin: 60px;
+    color: #ffd000;
+    text-shadow: 0 0 20px;
+}
+@keyframes wheel-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

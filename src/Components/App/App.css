@@ -1,0 +1,64 @@
+html, body, #App, #App>div {
+  height: 100vh;
+  margin: 0;
+  box-shadow: inset 0 0 20px;
+}
+html{
+  background: linear-gradient(180deg, #ff6600 50%, #ffe600);
+  border: 20px solid #151515;
+  box-shadow: inset 0 0 20px;
+}
+body {
+  width: 100%;
+  /*margin: 0;*/
+}
+.App {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+
+/*}*/
+/*#topBar {*/
+/*  background-color: #61dafb;*/
+/*  color: #61dafb;*/
+/*  height: 3vh;*/
+/*  animation: unbigitize 0.1s forwards ease-out;*/
+/*}*/
+/*#topBar:hover {*/
+/*  animation: bigitize 1s forwards;*/
+/*}*/
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes bigitize {*/
+/*  from {*/
+/*    height: 3vh;*/
+/*  }*/
+/*  to {*/
+/*    height: 30vh;*/
+/*  }*/
+/*}*/
+
+/*@keyframes unbigitize {*/
+/*  from {*/
+/*    height: 30vh;*/
+/*  }*/
+/*  to {*/
+/*    height: 3vh;*/
+/*  }*/
+/*}*/
+
